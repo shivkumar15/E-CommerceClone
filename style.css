@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    text-align: center;
+    line-height: 35px;
+    
+}
+
+#Address{
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    width: 450px;
+    font-size: medium;
+    border-color: orangered;
+}
+
+p{
+    color:blue
+}
+
+#type{
+    color: black;
+    
+}
+
+.buttonhw{
+    height: 30px;
+    width: 90px;
+    margin: 20px;
+}
+
+
