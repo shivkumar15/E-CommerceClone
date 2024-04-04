@@ -1,0 +1,1562 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+    text-decoration: none;
+}
+
+
+nav{ 
+    width:100%;
+    height:72px;
+    background-color: rgba(134, 138, 138,0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* position: sticky; */
+}
+.nav-logoWP{
+    display: flex;
+    justify-content: center;
+    width:11%;
+    height:50px;
+}
+
+.logoWP img{
+    width:15%;
+    filter:drop-shadow(0px 0px 5px rgb(248, 215, 5));
+    width:90px; 
+}
+.anchor1WP{
+    width: 70%;
+    color:black;
+    align-items: center;
+    height:50px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.anchor1WP a{
+    transition-property: all;
+    transition-duration: 1s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+}
+.anchor1ContWP{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80%;
+    width:50%;
+}
+
+.anchor2WP {
+    color:black;
+    height:50px;
+    width:15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anchor2WP a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+a:hover{
+
+    transform: scale(1.2);
+    color:blue;
+}
+
+.loginWP {
+    transition-property: all;
+    transition-duration: 2s;
+    font-size: 1.1rem;
+    color:black;
+}
+
+.loginWP:hover{
+    transform: scale(1.2);
+}
+
+.loginWP a:hover{
+    color:blue;
+}
+
+.searchWP{
+    font-weight:900 ;
+    width:20px;
+    height:20px;
+}
+
+.searchWP:hover{
+transform: scale(1.2);
+color:red;
+}
+
+.notificationWP{
+    display: flex;
+    align-items: center;
+    width:20px;
+    height:20px;
+}
+
+.notificationWP:hover{
+    transform: scale(1.5);
+}
+
+/* css code for nav end  */
+        /* css code for nav end  */
+        /* css code for nav end  */
+
+        .heroWP{
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .paraWebPageWP{
+            z-index: 1;
+        }
+        .headphoneWP{
+            margin-top:20px;
+            border-radius: 25px;
+            background-color:rgb(213, 222, 213);
+            height:90vh;
+            width:93%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* z-index: 3; */
+
+        }
+
+        #headphoneWP{
+            /* background-color: rgb(196, 246, 46); */
+            height:80%;
+            
+
+            position: relative;
+            left:700px;
+            bottom:70px;
+            z-index: 3;
+            
+        }
+
+        #headphoneWP img{
+          
+            width:400px;
+            height:100%;
+            transform: rotate(20deg);
+            filter:drop-shadow(0px 0px 25px  rgb(251, 253, 251));
+        }
+
+        #headphoneWP img:hover{
+            filter:drop-shadow(0px 0px 15px rgb(235, 209, 67));
+        }
+    
+        .paraWebPageWP{
+            
+           position:relative;
+           right:170px;
+           bottom:50px;
+            height:400px;
+            width:auto;
+            /* background-color: aqua; */
+        }
+
+        #beatsWP{
+            width: fit-content;
+            /* background-color: blue; */
+            position: relative;
+            top:35px;
+            font-size: 1.5rem;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: 1;
+            filter:drop-shadow(6px 6px 5px black)
+        }
+
+        #wirelessWP{
+            width: fit-content;
+            /* background-color: antiquewhite; */
+            position: relative;
+            top:35px;
+            font-size: 5rem;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: 1;
+            filter:drop-shadow(6px 6px 5px black)
+        }
+
+        #paraHeadphoneWP{
+            /* background-color: blueviolet; */
+            z-index: 1;
+            color:rgba(255, 255, 255,0.6);
+            font-size: 13.5rem;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            filter:drop-shadow(6px 6px 5px black);
+        }
+
+        .paraWebPageWP button{
+            background-color: rgba(255, 0, 0,0.7);
+            color:white;
+            height:35px;
+            width:200px;
+            border-radius: 25px;
+            border:none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .paraWebPageWP button:hover{
+            background-color: red;
+            filter:drop-shadow(6px 6px 5px black)
+        }
+
+
+        /* css code for hero section ends here */
+                /* css code for hero section ends here */
+                        /* css code for hero section ends here */
+
+      .hero-section-twoWP {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        /* background-color: rgb(102, 52, 150); */
+        height:40vh;
+        width:100%;;
+
+      }                
+
+    .product1WP{
+        /* background-color: blueviolet; */
+        height:35vh;
+        width:93%;
+        /* display: flex; */
+
+    }
+
+    .raw-oneWP{
+        display: flex;
+        justify-content: space-between;
+        /* background-color: brown; */
+        
+    }
+    .blackWP{
+        background-color: black;
+        width:24%;
+        height:240px;
+        border-radius: 25px;
+        transition-property:all;
+        transition-duration: 1s;
+    }
+
+    .blackWP:hover{
+        box-shadow: 0 0 10px 5px rgb(34, 34, 34);
+        transform:scale(1.1);
+    }
+
+    .blackWP img{
+        z-index: 3;
+        position: relative;
+        top:15px;
+        left:90px;
+        height:93%;
+        width: 50%;
+    }
+
+    .blackWP img:hover{
+        filter:drop-shadow(0px 0px 15px rgb(241, 240, 237));
+    }
+
+    .black-paraWP{
+        z-index: 1;
+        position: relative;
+        bottom:190px;
+        left:30px;
+        display: inline-block;
+        /* background-color: aqua; */
+    }
+
+    #EARPHONEWP{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        font-size: 3.5rem;
+        color:rgba(255, 255, 255,0.6);
+        filter:drop-shadow(4px 2px 5px rgb(249, 249, 249));
+        /* width:200px; */
+    }
+
+    #EnjoyWP{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    #WithWP{
+        position: relative;
+        top:10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        font-size: 2.5rem;
+    }
+
+    .blackWP p{
+        
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgba(255, 255, 255,0.9);
+    }
+
+    .blackWP button{
+        color:white;
+        height:35px;
+        width:80px;
+        border-radius: 25px;
+        border:none;
+        background-color: rgba(255, 0, 0, 0.7);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom:180px;
+        left:30px;
+    }
+
+    .blackWP button:hover{
+        background-color: red;
+        filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+    }
+
+
+    /* black part en */
+        /* black part en */
+            /* black part en */
+
+
+    .yellowWP{
+        background-color: rgba(255, 255, 0,0.8);
+        width:24%;
+        height:240px;
+        border-radius: 25px;  
+        transition-property:all;
+        transition-duration: 1s;
+    }
+
+    .yellowWP:hover{
+        box-shadow: 0 0 10px 5px rgb(216, 223, 11);
+        transform:scale(1.1);
+    }
+
+    .yellowWP img{
+
+        position: relative;
+        top:25px;
+        left:130px;
+        height:200px;
+        width:60%;
+        z-index: 3;
+        filter:drop-shadow(6px 6px 5px rgb(55, 53, 53));
+    }
+
+    .yellowWP img:hover{
+        filter:drop-shadow(0px 0px 15px rgb(236, 235, 231));
+    }
+
+    .yellow-paraWP{
+        /* display: inline-block; */
+        /* background-color: aqua; */
+        position: relative;
+        bottom:160px;
+        left:20px;
+        z-index: 1;
+    }
+
+    #WATCHWP{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        font-size: 3.5rem;
+        color:rgba(255, 255, 255,0.6);
+        filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+        /* width:200px; */
+    }
+
+    #Enjoy-YLO-WP{
+        filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+        color:rgba(255, 255, 255,0.8);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    #With-YLO-WP{
+        filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+        color:white;
+        position: relative;
+        top:10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        font-size: 2.5rem;
+    }
+
+    .yellowWP button{
+        color:rgb(251, 251, 246);
+        height:35px;
+        width:80px;
+        border-radius: 25px;
+        border:none;
+        background-color: rgba(16, 15, 15, 0.8);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom:158px;
+        left:25px;
+        box-shadow: 1px 1px 3px 1px black ;
+        /* right:50px; */
+    }
+
+    .yellowWP button:hover{
+        background-color: rgba(16, 15, 15, 1);
+        filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+        box-shadow: none;
+    }
+    
+            /* yellow part en */
+            /* yellow part en */
+            /* yellow part en */
+
+
+        .redWP{
+         background-color: rgb(254, 1, 1);
+         width:45%;
+         height:240px;
+         border-radius: 25px;
+         transition-property:all;
+         transition-duration: 1s;
+            }
+
+        .redWP:hover{
+            box-shadow: 0 0 10px 5px rgb(227, 51, 51);
+            transform:scale(1.1)
+        }
+
+        .redWP img{
+            position: relative;
+            bottom:10px;
+            left:330px;
+            width:300px;
+            transform:rotate(-3deg);
+            filter:drop-shadow(0px 0px 8px rgb(55, 53, 53));
+            }
+
+        .redWP img:hover{
+            filter:drop-shadow(0px 0px 15px rgb(239, 239, 238));
+        }
+
+            .red-paraWP{
+                position: relative;
+                right:230px;
+                bottom:80px;
+                display: inline-block;
+            }
+
+            #TrendsWP{
+                position: relative;
+                top:10px;
+                filter:drop-shadow(0px 0px 8px rgb(1, 18, 7));
+                color:rgba(255, 255, 255,0.8);
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 2rem;
+            }
+
+            #DeviceWP{
+                filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+                color:white;
+                position: relative;
+                top:10px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 2.5rem;
+
+            }
+
+            #LAPTOPWP{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 4rem;
+                color:rgba(255, 255, 255,0.6);
+                filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+            }
+
+            .redWP button{
+               
+                color:rgb(241, 236, 236);
+                height:35px;
+                width:80px;
+                border-radius: 25px;
+                border:none;
+                background-color: rgba(255, 255, 0,0.8);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                position: relative;
+                right:450px;
+                bottom:43px;
+                box-shadow: 1px 1px 3px 1px black ;
+            }
+
+            .redWP button:hover{
+                box-shadow: none;
+                background-color: rgba(255, 255, 0,0.8);
+                filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+            }
+
+        /* css code for raw one ends here */
+        /* css code for raw one ends here */
+        /* css code for raw one ends here */
+        /* css code for raw one ends here */
+
+
+        .produc21WP{
+            /* background-color: rgb(240, 19, 19); */
+            height:35vh;
+            width:93%;
+    
+        }
+       .raw-twoWP{
+        margin-top:30px;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: rgb(13, 14, 14); */
+        }
+        
+        .whiteWP{
+            width:45%;
+            height:240px;
+            background-color:rgb(182, 176, 176);
+            border-radius: 25px;
+            transition-property:all;
+            transition-duration:1s;
+        }
+
+        .whiteWP:hover{
+            transform:scale(1.1);
+            box-shadow: 0 0 10px 5px  rgb(185, 174, 174);
+        }
+
+
+        .whiteWP img{
+            position: relative;
+            bottom:50px;
+            left:300px;
+            height:350px;
+            filter:drop-shadow(0px 0px 8px rgb(55, 53, 53));
+
+        }
+        .whiteWP img:hover{
+            filter:drop-shadow(0px 0px 15px rgb(236, 235, 231));
+        }
+
+        .whiteWP-para{
+            position: relative;
+            bottom:180px;
+            right:300px;
+            /* background-color: aqua; */
+            display: inline-block;
+        }
+        #Best{
+            filter:drop-shadow(0px 0px 8px rgb(1, 18, 7));
+            color:rgba(255, 255, 255,0.8);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2rem;
+        }
+
+        #Gaming{
+            filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+            color:white;
+            position: relative;
+            top:10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2.5rem;
+        }
+
+        #CONSOLE{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 4rem;
+                color:rgba(255, 255, 255,0.6);
+                filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+        }
+
+
+        .whiteWP button{
+               
+            color:rgb(11, 11, 11);
+            height:35px;
+            width:80px;
+            border-radius: 25px;
+            border:none;
+            background-color: rgba(255, 255, 255, 0.7);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom:176px;
+            left:40px;
+            box-shadow: 1px 1px 3px 1px black ;
+        }
+
+        .whiteWP button:hover{
+            box-shadow: none;
+            background-color: rgba(255, 255, 255, 1);
+            filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+        }
+
+
+
+        
+        .greenWP{
+            background-color: rgba(80, 255, 80, 0.8);
+            width:24%;
+            height:240px;
+            border-radius: 25px;
+            transition-property: all;
+            transition-duration:1s;
+        }
+
+        .greenWP:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px 5px rgba(80, 255, 80, 0.8);
+        }
+
+        .greenWP img{
+            z-index:3;
+            position: relative;
+            top:9.5px;
+            left:70px;
+            height: 230px;
+            filter: drop-shadow(0 0 5px rgba(1, 255, 1, 0.873));
+        }
+
+        .greenWP img:hover{
+            filter:drop-shadow(0px 0px 15px rgb(236, 235, 231));
+        }
+        .greenWP-para{
+            /* background-color: aqua; */
+            display: inline-block;
+            z-index:1;
+            position: relative;
+            bottom:210px;
+            left: 15px;
+
+        }
+
+        #Play{
+            filter:drop-shadow(0px 0px 8px rgb(1, 18, 7));
+            color:rgba(255, 255, 255,0.8);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2rem;
+        }
+
+        #Game{
+            filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+            color:white;
+            position: relative;
+            top:10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2.5rem;
+        }
+
+        #OCULUS{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 4rem;
+                color:rgba(255, 255, 255,0.6);
+                filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+        }
+
+        .greenWP button{
+               
+            color:rgba(80, 255, 80, 0.8);
+            height:35px;
+            width:80px;
+            border-radius: 25px;
+            border:none;
+            background-color: rgba(254, 254, 255, 0.8);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            right:217px;
+            bottom:165px;
+            box-shadow: 1px 1px 3px 1px black ;
+        }
+
+        .greenWP button:hover{
+            box-shadow: none;
+            background-color: rgba(246, 249, 247, 0.899);
+            filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+        }
+
+
+        .blueWP{
+            background-color: rgb(18,148,255);
+            width:24%;
+            height:240px;
+            border-radius: 25px;
+            transition-property: all;
+            transition-duration:1s ;
+        }
+
+        .blueWP:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px 5px rgb(18,148,255);
+        }
+
+        .blueWP img{
+            z-index: 3;
+            position: relative;
+            top:65px;
+            left:185px;
+            transform: rotate(35deg);
+            height:170px;
+            filter: drop-shadow(0 0 10px black);
+
+        }
+        .blueWP img:hover{
+            filter:drop-shadow(0px 0px 15px rgb(236, 235, 231));
+        }
+        .blueWP-para{
+            z-index: 1;
+            display: inline-block;
+            /* background-color: aqua; */
+            position: relative;
+            bottom:145px;
+            left:20px;
+
+        }
+
+        #New{
+            filter:drop-shadow(0px 0px 8px rgb(1, 18, 7));
+            color:rgba(255, 255, 255,0.8);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2rem;
+        }
+
+        #Amazon{
+            filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+            color:white;
+            position: relative;
+            top:10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2rem;
+        }
+
+        #SPEAKER{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3.5rem;
+            color:rgba(255, 255, 255,0.6);
+            filter:drop-shadow(4px 2px 5px rgb(29, 28, 28));
+        }
+
+        .blueWP button{
+               
+            color:rgb(18,148,255);
+            height:35px;
+            width:80px;
+            border-radius: 25px;
+            border:none;
+            background-color: rgba(254, 254, 255, 0.8);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-shadow: 1px 1px 3px 1px black ;
+            position: relative;
+            right:210px;
+            bottom:90px;
+        }
+
+        .blueWP button:hover{
+            box-shadow: none;
+            background-color: rgba(246, 249, 247, 0.899);
+            filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+        }
+ 
+
+            /* icons stars here */
+             /* icons stars here */
+            /* icons stars here */
+
+        
+        .icons-WP{
+            display:flex;
+            align-items: center;
+            margin-top:40px;
+            height:11vh;
+            width:100%;
+            /* background-color: rgb(228, 106, 205); */
+        }
+
+        .icons-WP i{
+            padding-right:5px;
+            margin-right: 10px;
+            color:rgba(167, 42, 42, 0.838);  
+        }
+
+        .icon-size-WP{
+            margin-right: 10px;
+            height:48px;
+            width: 48px;;
+        }
+
+        .truck-WP p{
+            position: relative;
+            left:8px;
+        }
+
+        #icons-WP{
+            border-radius: 4px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color: rgba(233, 221, 221, 0.221);
+            width:100%;
+            height: 9vh;
+        }
+
+
+        .icon-align-WP{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: flex;
+            align-items: center;
+        }
+
+        .para-light-dark-WP{
+            color: rgb(138, 133, 133);
+        }
+        
+
+        /* <!-- work on icons finishes here -->
+        <!-- work on icons finishes here -->
+        <!-- work on icons finishes here -->
+         */
+
+
+         .red-headphone-WP{
+            display: flex;
+            align-items: center;
+            border-radius: 25px;
+            height:50vh;
+            width:100%;
+            background-color: rgb(228, 30, 30);
+            margin-top: 210px;
+         }
+
+         .red-headphone-WP img{
+            z-index: 3;
+                width:400px;
+                position: relative;
+                bottom:110px;
+                left:300px;
+                filter:drop-shadow(15px -5px 15px rgba(0, 0, 0, 0.77));
+         }
+
+         .red-headphone-para1-WP{
+            z-index: 1;
+            position: relative;
+            right:300px;
+            width:fit-content;
+            color: rgb(254, 254, 255);
+            filter: drop-shadow(0 0 5px rgb(68, 66, 66));
+           
+         }
+
+         .Off-WP{
+            font-size: 1rem;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+
+         .FINE-WP{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 8rem; 
+            line-height: 0.9em;
+            font-stretch: 5px;
+            
+         }
+
+         .red-headphone-para2-WP{
+            color: rgb(254, 254, 255);
+            width:fit-content;
+            filter: drop-shadow(0 0 5px rgb(68, 66, 66));
+            /* background-color: aqua; */
+            position: relative;
+            left:150px;
+            bottom:30px;
+         }
+
+         .Boat-WP{
+            font-size: 1.2rem;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+
+         .SUMMER-WP{
+            position: relative;
+            top:15px;
+            font-size: 4.5rem;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+
+         .Lorem1-WP{
+            position: relative;
+            top:25px;
+            font-size: 1.2rem;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+
+         .red-headphone-para2-WP button{
+            color:rgb(255, 65, 18);
+            height:35px;
+            width:100px;
+            border-radius: 25px;
+            border:none;
+            background-color: rgba(254, 254, 255, 0.8);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-shadow: 1px 1px 3px 1px black ;
+
+            position: relative;
+            top:50px;
+
+         }
+
+         .red-headphone-para2-WP button:hover{
+            box-shadow: none;
+            background-color: rgba(246, 249, 247, 0.899);
+            filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+        }
+ 
+        /* <!-- red headphone ends here -->
+        <!-- red headphone ends here -->
+        <!-- red headphone ends here --> */
+
+
+        .Best-Seller-Products-WP{
+            margin-top:80px;
+            height: 8vh;
+            width:100%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .Best-Seller-Products-WP{
+            text-align: center;
+        }
+
+        .Best-WP{
+            font-size: 2rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:rgb(4, 0, 0);
+        }
+
+        .Lorem2-WP{
+            font-size: 0.8rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:rgb(176, 172, 172);
+        }
+
+
+        /* <!-- multiple product section starts here -->
+        <!-- multiple product section starts here -->
+        <!-- multiple product section starts here --> */
+
+        .multiple-product-section-WP{
+            margin-top:50px;
+            /* background-color: palevioletred; */
+            width:100%;
+            height:90vh;
+        }
+
+       .multiple-product-section-raw1-WP{
+        height:45%;
+        width:100%;
+        /* background-color: lawngreen; */
+        display: flex;
+        justify-content: space-around;
+       }
+
+
+       .raw1-pic1-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw1-pic1-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       
+       }
+
+       .raw1-pic1-WP div img{
+        position: relative;
+        left:15px;
+        height:100%;
+        width:80%;
+       }
+
+
+       .raw1-pic2-WP {
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw1-pic2-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw1-pic2-WP div img{
+        height:100%;
+        width:90%;
+        position: relative;
+        left:15px;
+       }
+
+
+
+       .raw1-pic3-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw1-pic3-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw1-pic3-WP div img{
+        height:100%;
+        width:70%;
+        position: relative;
+        left:35px;
+       }
+
+       .raw1-pic4-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw1-pic4-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw1-pic4-WP div img{
+        height:100%;
+        width:90%;
+        position: relative;
+        left:15px;
+       }
+
+
+       
+       .multiple-product-section-raw2-WP{
+        height:45%;
+        width:100%;
+        /* background-color:violet; */
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+       }
+
+       
+       .raw2-pic1-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw2-pic1-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw2-pic1-WP div img{
+        height:100%;
+        width:90%;
+       }
+
+
+       .raw2-pic2-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw2-pic2-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw2-pic2-WP div img{
+        height:100%;
+        width:80%;
+        position: relative;
+        left:30px;
+       }
+
+
+       .raw2-pic3-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       
+       }
+
+       .raw2-pic3-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw2-pic3-WP div img{
+        height:100%;
+        width:90%;
+       }
+
+       .raw2-pic4-WP{
+        height:100%;
+        /* background-color: bisque; */
+        width:20%;
+       }
+
+       .raw2-pic4-WP div{
+        height:70%;
+        width:100%;
+        background-color: rgba(220, 220, 220, 0.89);
+        border-radius: 10px;
+       }
+
+       .raw2-pic4-WP div img{
+        height:100%;
+        width:70%;
+        position: relative;
+        left:45px;
+       }
+
+
+       .raw1-pic1-WP div:hover ,.raw1-pic2-WP div:hover,
+       .raw1-pic3-WP div:hover ,.raw1-pic4-WP div:hover,
+       .raw2-pic1-WP div:hover ,.raw2-pic2-WP div:hover,
+       .raw2-pic3-WP div:hover ,.raw2-pic4-WP div:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 5px rgb(128, 119, 119);
+       }
+
+       .mul-pro-para-font1{
+        color:rgb(108, 101, 101);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:0.8rem;
+        
+       }
+
+       .mul-pro-para-font2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.2rem;
+       }
+
+
+       /* <!-- multiple product section ends here -->
+       <!-- multiple product section ends here -->
+       <!-- multiple product section ends here -->
+
+
+       <!-- green watch section starts here -->
+       <!-- green watch section starts here -->
+       <!-- green watch section starts here -->   */
+
+       .green-watch-section-WP{
+        height:70vh;
+        width:100%;
+        /* background-color: slateblue; */
+        /* padding-top:200px; */
+       }
+
+       .green-watch-section-green-Area-WP{
+        position: relative;
+        top:200px;
+        height:70%;
+        width:100%;
+        background-color: rgb(64, 222, 106);
+        border-radius: 25px;
+       }
+
+       .green-watch-section-green-Area-WP img{
+        z-index: 3;
+        height:370px;
+        position: relative;
+        left:400px;
+        bottom:140px;
+        filter: drop-shadow(0 0 5px rgb(64, 222, 106));
+
+       }
+
+       .green-watch-para1-WP{
+        color: rgb(254, 254, 255);
+        filter: drop-shadow(2px 2px 15px rgba(68, 66, 66, 0.864));
+        z-index: 1;
+        width: fit-content;
+        position: relative;
+        bottom:320px;
+        left: 130px;;
+       }
+
+       /* ------------------ */
+
+       .GW-Off-WP{
+        font-size: 1rem;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .HAPPY-WP{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 8rem; 
+        line-height: 0.9em;
+        font-stretch: 5px;
+    }
+
+    .green-watch-para2-WP{
+        color: rgb(254, 254, 255);
+        filter: drop-shadow(2px 2px 15px rgba(68, 66, 66, 0.864));
+        width: fit-content;
+        position: relative;
+        bottom: 550px;
+        left: 800px;
+    }
+    
+    .GW-Titian-WP{
+        font-size: 1.2rem;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             
+    }
+    
+    .GW-SUMMER-WP{
+        position: relative;
+        top:17px;
+        font-size: 4.5rem;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .GW-Lorem1-WP{
+        position: relative;
+        top:15px;
+        font-size: 1.2rem;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .green-watch-para2-WP button{
+        color:rgb(80, 195, 92);
+        height:35px;
+        width:100px;
+        border-radius: 25px;
+        border:none;
+        background-color: rgba(254, 254, 255, 0.8);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-shadow: 1px 1px 3px 1px black ;
+        position: relative;
+        top:50px;
+    
+     }
+
+     .green-watch-para2-WP button:hover{
+        box-shadow: none;
+        background-color: rgba(246, 249, 247, 0.899);
+        filter:drop-shadow(6px 6px 5px rgb(244, 240, 240));
+    }
+    
+
+    /* <!-- green watch section end here -->
+    <!-- green watch section end here -->
+    <!-- green watch section end here -->   */
+
+    .recent-WP{
+        display: flex;
+        align-items: center;
+        margin-top:130px;
+        height:9vh;
+        width:100%;
+    }
+
+    #recent-WP{
+        display: flex;
+        justify-content: center;
+        height:8.5vh;
+        width:100%;
+    }
+
+    .recent-para-WP{
+        height: 100%;
+        width:fit-content;
+        text-align: center;
+        
+    }
+
+    .Recent-News{
+        color:black;
+        font-size: 1.4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nemo{
+        color: rgb(93, 89, 89);
+        font-size: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .three-img-section-WP{
+        height:40vh;
+        width:100%;
+        margin-top:20px;
+    }
+
+    #three-img-selection-WP{
+        height:100%;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .three-img-selection-img1-WP{
+        height:100%;
+        width:30%;
+    }
+
+    .three-img-selection-img1-WP div{
+        height:70%;
+        width:100%;
+        background-image: url("watching-time.jpg");
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .three-img-selection-img2-WP{
+        height:100%;
+        width:27%;
+
+    }
+
+    .three-img-selection-img2-WP div{
+        height:70%;
+        width:100%;
+        background-image: url("lap-phone.jpg");
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .three-img-selection-img3-WP{
+        height:100%;
+        width:30%;
+    }
+
+    .three-img-selection-img3-WP div{
+        height:65%;
+        width:100%;
+        background-color: rgb(77, 142, 199);
+        height:70%;
+        width:100%;
+        background-color: aliceblue;
+        background-image: url("gaget-testing.jpg");
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+
+    .three-img-selection-img1-WP span .line1-WP,
+    .three-img-selection-img2-WP span .line1-WP,
+    .three-img-selection-img3-WP span .line1-WP{
+        position: relative;
+        top:15px;
+        color:rgb(129, 125, 125);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.8rem;
+    }
+
+    .three-img-selection-img1-WP span .line2-WP,
+    .three-img-selection-img2-WP span .line2-WP,
+    .three-img-selection-img3-WP span .line2-WP{
+        position: relative;
+        top:25px;
+        color:rgb(7, 7, 7);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+    }
+
+    .three-img-selection-img1-WP span .line3-WP,
+    .three-img-selection-img2-WP span .line3-WP,
+    .three-img-selection-img3-WP span .line3-WP{
+        position: relative;
+        top:37px;
+        color:rgb(95, 91, 91);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.8rem;
+    }
+
+
+    /* css for footer part  */
+      /* css for footer part  */
+        /* css for footer part  */
+
+        footer{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top:90px;
+            height:50vh;
+            width:107.2%;
+            position: relative;
+            right:50px;
+        }
+        .body4{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(233, 230, 230, 0.847);
+            /* position: absolute;
+           bottom:0; */
+          }
+          .logof{
+            font-size: 45px;
+            font-weight: 300;
+            color: rgb(237, 46, 8);
+            position: absolute;
+            left: 200px;
+    
+          }
+          .logofootf{
+            font-size: 10px;
+            font-weight: 100;
+            color: rgb(1, 136, 254);
+            position: absolute;
+            top: 45px;
+            left: 280px;
+    
+          }
+          .detailf{
+            font-size: 15px;
+            color: rgb(8, 8, 8);
+            position: absolute;
+            top: 80px;
+            left: 200px;
+          }
+          .emailf{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(8, 8, 8);
+            position: absolute;
+            top: 55px;
+            left: 600px;
+          }
+         .linkf{
+            font-size: 15px;
+            position: absolute;
+            top: 90px;
+            left: 600px;
+          }
+          .linkf2{
+            font-size: 15px;
+            position: absolute;
+            top: 120px;
+            left: 600px;
+          }
+          .adress{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(4, 135, 250);
+            position: absolute;
+            top: 190px;
+            left: 600px;
+          }
+          .adressd{
+            font-size: 14px;
+            font-weight: 100;
+            color:rgb(5, 5, 5);
+            position: absolute;
+            top: 240px;
+            left: 600px;
+          }
+          .mob{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(4, 135, 250);
+            position: absolute;
+            top: 55px;
+            left: 1000px;
+          }
+          .num{
+            font-size: 15px;
+            font-weight: 200;
+            color: rgb(8, 8, 8);
+            position: absolute;
+            top: 90px;
+            left: 1000px;
+          }
+          .follow{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(11, 11, 11);
+            position: absolute;
+            top: 55px;
+            left: 1280px;
+          }
+          .insta{
+            font-size: 15px;
+            font-weight: 200;
+            color: rgb(23, 116, 197);
+            position: absolute;
+            top: 90px;
+            left: 1330px;
+          }
+          .insp{
+            position: absolute;
+            top: 90px;
+            left: 1280px;
+          }
+          .fb{
+            font-size: 15px;
+            font-weight: 200;
+            color: rgb(23, 116, 197);
+            position: absolute;
+            top: 140px;
+            left: 1330px;
+          }
+          .fbp{
+            position: absolute;
+            top: 140px;
+            left: 1280px;
+          }
+          .ser{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(4, 4, 4);
+            position: absolute;
+            top: 200px;
+            left: 1280px;
+          }
+          .search{
+            
+            position: absolute;
+            top: 230px;
+            left: 1280px;
+            border-radius: 20px;
+          }
+       
+
+
+
+
+
+
+       
+        
+
+
